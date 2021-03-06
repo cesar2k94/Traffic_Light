@@ -32,7 +32,7 @@
   border-radius: 50%; 
   
 }
-.redOpaco{
+.redOff{
   background: rgb(100, 6, 6);
   width: 70%;
   height: 68px;
@@ -45,14 +45,14 @@
   border-radius: 50%;   
   border-radius: 50%; 
 }
-.orangeOpaco{
+.orangeOff{
   background: rgb(85, 56, 2);
   width: 70%;
   height: 68px;
   border-radius: 50%;   
   border-radius: 50%;
 }
-.greenOpaco{
+.greenOff{
   background: rgb(6, 37, 6);
   width: 70%;
   height: 68px;
