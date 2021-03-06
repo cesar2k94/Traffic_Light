@@ -1,38 +1,66 @@
-.App {
+.inicio{
+  background: black;
+  width: 20px;
+  height: 180px;
+  margin: auto;   
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+.body{
+  background: black;
+  width: 90px;
+  height: 220px;
+  margin: auto;   
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px; 
+}
+.color{
   text-align: center;
+  margin-top: 5px;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.red{
+  background: red;
+  width: 70%;
+  height: 68px;
+  border-radius: 50%; 
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.redOpaco{
+  background: rgb(100, 6, 6);
+  width: 70%;
+  height: 68px;
+  border-radius: 50%; 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.orange{
+  background: orange;
+  width: 70%;
+  height: 68px;
+  border-radius: 50%;   
+  border-radius: 50%; 
 }
-
-.App-link {
-  color: #61dafb;
+.orangeOpaco{
+  background: rgb(85, 56, 2);
+  width: 70%;
+  height: 68px;
+  border-radius: 50%;   
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.greenOpaco{
+  background: rgb(6, 37, 6);
+  width: 70%;
+  height: 68px;
+  border-radius: 50%; 
+}
+.green{
+  background: rgb(6, 216, 6);
+  width: 70%;
+  height: 68px;
+  border-radius: 50%; 
 }
